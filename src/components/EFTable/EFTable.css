@@ -1,0 +1,39 @@
+.table {
+    display: table;
+}
+
+.tr {
+    display: table-row;
+}
+
+.th {
+    font-weight: bold;
+}
+
+.th.active {
+    /*color: red;*/
+}
+
+.th.active:after {
+    content: ' ';
+    display: inline-block;
+    margin-left: 5px;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+}
+
+.th.active.asc:after {
+    border-bottom-color: #000;
+}
+
+.th.active.desc:after {
+    border-top-color: #000;
+}
+
+.th,
+.td {
+    display: table-cell;
+    text-align: left;
+    min-width: 100px;
+}

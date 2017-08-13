@@ -1,0 +1,45 @@
+/*.edit:after {
+    content:"";
+    display: block;
+    clear:both;
+}
+
+.edit-block {
+    float: left;
+    width: 50%;
+}*/
+
+.edit {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.edit-block {
+    width: 33.33333333%;
+    margin:20px 0;
+}
+
+.edit-block-label {
+    display: block;
+    float: left;
+    width: 30%;
+    margin:0;
+}
+
+.edit-block-input {
+    display: block;
+    float: left;
+    width: 70%;
+}
+
+.edit-block-input input{
+    display:block;
+    padding: 4px;
+}
+
+.operate-btn{
+    display:inline-block;
+    margin-right:10px;
+    padding: 4px;
+    border: 1px solid #000;
+}

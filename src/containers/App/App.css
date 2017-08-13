@@ -1,0 +1,16 @@
+.App {
+    /*text-align: center;*/
+    display: flex;
+}
+
+ul[role="navigation"] {
+    width: 200px;
+}
+
+ul[role="navigation"] a.active {
+    color: red;
+}
+
+div.container {
+    flex: 1;
+}
